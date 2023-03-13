@@ -8,3 +8,8 @@
   text-decoration: none;
   margin: 0;
 }
+
+.header__lang-link:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
