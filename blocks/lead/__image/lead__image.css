@@ -5,20 +5,23 @@
   align-self: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .lead__image {
+    margin: 56px auto 8px;
     max-width: 100%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__image {
+    margin: 56px auto 8px;
     max-width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__image {
     min-width: 320px;
+    margin: 40px auto 8px;
   }
 }

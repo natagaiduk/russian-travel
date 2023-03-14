@@ -3,6 +3,7 @@
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
   max-width: 1280px;
+  min-width: 320px;
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
