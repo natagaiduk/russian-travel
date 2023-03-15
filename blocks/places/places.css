@@ -9,7 +9,6 @@
 @media screen and (max-width: 1023px) {
   .places {
     max-width: calc(100% - (24px * 2));
-    display: grid;
     gap: 73px;
     margin: 0 auto 90px;
   }
@@ -18,7 +17,6 @@
 @media screen and (max-width: 767px) {
   .places {
     max-width: 100%;
-    display: grid;
     gap: 50px;
     margin: 0 auto 66px;
   }

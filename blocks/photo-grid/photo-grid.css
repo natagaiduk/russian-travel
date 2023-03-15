@@ -11,8 +11,6 @@
   .photo-grid {
     margin: 92px auto;
     max-width: calc(100% - (48px * 2));
-    display: grid;
-    gap: 16px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
@@ -22,8 +20,6 @@
   .photo-grid {
     margin: 88px auto;
     max-width: calc(100% - (24px * 2));
-    display: grid;
-    gap: 16px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
@@ -33,8 +29,6 @@
   .photo-grid {
     margin: 64px auto;
     width: calc(100% - (16px * 2));
-    display: grid;
-    gap: 16px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
   }
