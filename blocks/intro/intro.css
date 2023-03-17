@@ -4,22 +4,21 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    width: 984px;
+    width: calc(100% - (2*48px))
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
     width: minmax(768px, 288px);
   }

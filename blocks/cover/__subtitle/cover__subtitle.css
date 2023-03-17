@@ -3,7 +3,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.22;
-  width: 560px;
+  max-width: 360px;
   text-align: center;
 }
 
@@ -16,6 +16,7 @@
 @media screen and (max-width: 1023px) {
   .cover__subtitle {
     margin: 32px auto 115px;
+    max-width: 360px;
   }
 }
 
